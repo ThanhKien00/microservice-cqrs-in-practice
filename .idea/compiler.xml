@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="docker" />
+        <module name="account_common" />
+        <module name="account_cmd" />
+        <module name="account_query" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="docker" options="-parameters" />
+      <module name="account-services" options="" />
+      <module name="account_cmd" options="-parameters" />
+      <module name="account_common" options="-parameters" />
+      <module name="account_query" options="-parameters" />
+      <module name="ms-cqrs-docker" options="" />
     </option>
   </component>
 </project>

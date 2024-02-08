@@ -1,6 +1,6 @@
-package com.techbank.cqrs.event;
+package com.techbank.common.event;
 
-import com.techbank.cqrs.message.Message;
+import com.techbank.cqrs.event.BaseEvent;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -8,12 +8,12 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 @Data
-@EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public abstract class BaseEvent extends Message {
+@EqualsAndHashCode(callSuper = true)
+public class FundsWithdrawnEvent extends BaseEvent {
 
-    private int version;
+    private double amount;
 
 }

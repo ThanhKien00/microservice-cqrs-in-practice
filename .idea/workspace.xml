@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a362d744-4598-4cf5-b3df-e6ceb73a2bab" name="Changes" comment="commit code">
+      <change afterPath="$PROJECT_DIR$/account-services/account.common/src/main/java/com/techbank/common/event/AccountClosedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-services/account.common/src/main/java/com/techbank/common/event/AccountOpenedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-services/account.common/src/main/java/com/techbank/common/event/FundsDepositedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-services/account.common/src/main/java/com/techbank/common/event/FundsWithdrawnEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cqrs-core/src/main/java/com/techbank/cqrs/command/CommandHandlerMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-services/account.common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-services/account.common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cqrs-core/src/main/java/com/techbank/cqrs/command/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/cqrs-core/src/main/java/com/techbank/cqrs/command/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cqrs-core/src/main/java/com/techbank/cqrs/event/BaseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/cqrs-core/src/main/java/com/techbank/cqrs/event/BaseEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,25 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "20",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Desktop/Master Dev/Java Backend/IntelliJ Workspace/microservice-cqrs-in-practice/account-services/account.query/src/main/java/com/techbank/query",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/OneDrive/Desktop/Master Dev/Java Backend/IntelliJ Workspace/microservice-cqrs-in-practice/account-services/account.query/src/main/java/com/techbank/query&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\OneDrive\Desktop\Master Dev\Java Backend\IntelliJ Workspace\microservice-cqrs-in-practice\account-services\account.query\src\main\java\com\techbank\query" />
@@ -119,7 +128,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -152,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707371616400</updated>
       <workItem from="1707371617379" duration="2102000" />
-      <workItem from="1707374082685" duration="5027000" />
+      <workItem from="1707374082685" duration="5718000" />
+      <workItem from="1707399123917" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="commit code">
       <option name="closed" value="true" />
@@ -170,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707379102064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit code">
+      <option name="closed" value="true" />
+      <created>1707379365622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707379365622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

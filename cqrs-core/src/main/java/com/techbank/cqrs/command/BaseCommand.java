@@ -1,9 +1,9 @@
 package com.techbank.cqrs.command;
 
-import com.techbank.cqrs.message.Message;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import com.techbank.cqrs.message.Message;
 
 @EqualsAndHashCode(callSuper = true)
 @Data

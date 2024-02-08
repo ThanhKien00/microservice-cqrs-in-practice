@@ -9,13 +9,20 @@
     </parent>
 
     <artifactId>account_common</artifactId>
-    <version>1.0.0</version>
+    <version>${parent.version}</version>
     <name>account.common</name>
     <description>shared common for Queries and Commands</description>
     <properties>
         <java.version>17</java.version>
     </properties>
     <dependencies>
+
+        <dependency>
+            <groupId>com.techbank</groupId>
+            <artifactId>cqrs-core</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

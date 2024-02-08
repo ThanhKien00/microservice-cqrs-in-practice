@@ -20,6 +20,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>com.techbank</groupId>
+			<artifactId>account_common</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.techbank</groupId>
+			<artifactId>cqrs-core</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="account_query" />
         <module name="account_common" />
         <module name="account_cmd" />
-        <module name="account_query" />
+        <module name="cqrs-core" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="account_cmd" options="-parameters" />
       <module name="account_common" options="-parameters" />
       <module name="account_query" options="-parameters" />
+      <module name="cqrs-core" options="-parameters" />
       <module name="ms-cqrs-docker" options="" />
     </option>
   </component>
